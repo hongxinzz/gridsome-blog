@@ -7,8 +7,8 @@
       >
         <b>♪</b>
       </div>
-      <h1 class="project-name">zhuohongxin</h1>
-      <h1 class="project-tagline">{{homedata.description}}</h1>
+      <h1 class="project-name">zhx</h1>
+      <h1 class="project-tagline">欢迎来到zhx的个人博客</h1>
       <a :href="gitHomeUrl" target="_blank" class="btn">GitHub</a>
       <div class="cardBg">
         <el-card>
@@ -17,7 +17,7 @@
             <el-col :span="10"><div style="height:1px"></div></el-col>
             <el-col :span="4" style="text-align:right;">
               <div style="font-size: 20px; color: rgb(96, 98, 102); margin-top: 5px;">
-                <b>zhuohongxin</b>
+                <b>zhx</b>
               </div>
               <div style="color: rgb(96, 98, 102);">
                 <i class="el-icon-location"></i>&nbsp;厦门<br>
