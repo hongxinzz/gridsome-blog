@@ -7,10 +7,9 @@
       >
         <b>♪</b>
       </div>
-      <h1 class="project-name">{{homedata.title}}</h1>
+      <h1 class="project-name">zhuohongxin</h1>
       <h1 class="project-tagline">{{homedata.description}}</h1>
-      <a :href="gitHomeUrl" target="_blank" class="btn">Gitee主页</a>
-      <a :href="gitProjectUrl" target="_blank" class="btn">博客源码</a>
+      <a :href="gitHomeUrl" target="_blank" class="btn">GitHub</a>
       <div class="cardBg">
         <el-card>
           <el-row>
@@ -18,10 +17,10 @@
             <el-col :span="10"><div style="height:1px"></div></el-col>
             <el-col :span="4" style="text-align:right;">
               <div style="font-size: 20px; color: rgb(96, 98, 102); margin-top: 5px;">
-                <b>{{homedata.userename}}</b>
+                <b>zhuohongxin</b>
               </div>
               <div style="color: rgb(96, 98, 102);">
-                <i class="el-icon-location"></i>&nbsp;{{homedata.position}}<br>
+                <i class="el-icon-location"></i>&nbsp;厦门<br>
               </div>
             </el-col>
             <el-col :span="2">
@@ -40,7 +39,7 @@
           </el-row>
         </el-card>
       </div>
-      
+
     </header>
     <!-- 子组件出口 默认插槽 -->
     <slot/>
@@ -51,8 +50,7 @@
         <el-row>
             <el-col :span="10">
               <span>© 2020 {{homedata.usercname}}</span>
-              <a :href="gitHomeUrl" target="_blank">Profile</a>
-              <a :href="gitProjectUrl" target="_blank">VBlog</a>
+              <a :href="gitHomeUrl" target="_blank">GotHub</a>
             </el-col>
             <el-col :span="4"><div style="height:1px"></div></el-col>
             <el-col :span="10">
@@ -92,8 +90,7 @@ export default {
   name: 'PostPage',
   data(){
     return {
-      gitHomeUrl:'https://gitee.com/cjhyl',
-      gitProjectUrl:'https://gitee.com/cjhyl/lg_lesson8',
+      gitHomeUrl:'https://github.com/hongxinzz',
       musicLen:12,
       musics:[]
     }

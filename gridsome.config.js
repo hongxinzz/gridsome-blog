@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'cjhyl',
+  siteName: 'xinghe',
   plugins: [
     {//读取本地md文件中的数据
       use: '@gridsome/source-filesystem',
